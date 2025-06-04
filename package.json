@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "env-cmd -f ./config/dev.env node dist/app.js",
+    "dev": "node dist/app.js",
     "test": "env-cmd -f ./config/test.env vitest run",
     "coverage": "env-cmd -f ./config/test.env vitest run --coverage --coverage.include **/src/*",
     "doc": "typedoc"
